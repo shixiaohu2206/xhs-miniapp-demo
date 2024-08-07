@@ -7,9 +7,12 @@ export default function Index() {
     console.log("Page loaded.");
   });
 
+  const aaa = { text: "1111" };
+  const bbb = { text: "2222" };
+
   return (
     <View className="index">
-      <aaa-bbb></aaa-bbb>
+      <aaa-bbb configB={aaa} config={bbb}></aaa-bbb>
       <Text>Hello world!</Text>
     </View>
   );

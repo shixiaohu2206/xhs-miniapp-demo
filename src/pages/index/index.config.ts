@@ -3,7 +3,7 @@ const usingComponents = {
 };
 
 if (process.env.TARO_ENV === "xhs") {
-  usingComponents["aaa-bbb"] = "./aaa-bbb-xhs/index";
+  usingComponents["aaa-bbb"] = "../../aaa-bbb-xhs/index";
 }
 
 if (process.env.TARO_ENV === "tt") {
